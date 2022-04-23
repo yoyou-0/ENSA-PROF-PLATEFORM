@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Corona Admin</title>
+  <title>ENSA PROF</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
@@ -379,7 +379,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
 
                   <div>
                     <?php
-                    $con = new mysqli('localhost', 'root', '', 'tuto');
+                    $con = new mysqli('remotemysql.com', '1xUW9ATMAK', 'surCRgjxjN', '1xUW9ATMAK');
                     $c = $_SESSION['auth']->username;
                     $query = $con->query("
     SELECT 

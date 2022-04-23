@@ -361,7 +361,7 @@
 
                   <div>
                     <?php
-                    $con = new mysqli('localhost', 'root', '', 'tuto');
+                    $con = new mysqli('remotemysql.com', '1xUW9ATMAK', 'surCRgjxjN', '1xUW9ATMAK');
                     $query = $con->query("
     SELECT 
       DAYNAME(add_at) as monthname,
