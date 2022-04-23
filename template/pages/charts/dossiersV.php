@@ -137,7 +137,7 @@
         </li>
 
         <li class="nav-item menu-items">
-          <a class="nav-link" href="../../pages/forms/profilA.php">
+          <a class="nav-link" href="../../pages/forms/profil.php">
             <span class="menu-icon">
               <i class="mdi mdi-account-box"></i>
             </span>

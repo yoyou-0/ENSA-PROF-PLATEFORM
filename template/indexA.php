@@ -143,7 +143,7 @@ $es = new DossierService();
           </li>
           
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/forms/profilA.php">
+            <a class="nav-link" href="pages/forms/profil.php">
               <span class="menu-icon">
                 <i class="mdi mdi-account-box"></i>
               </span>
@@ -277,7 +277,7 @@ $es = new DossierService();
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
                   <h6 class="p-3 mb-0">Profile</h6>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item" href="pages/forms/profilA.php">
+                  <a class="dropdown-item preview-item" href="pages/forms/profil.php">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-settings text-success"></i>
