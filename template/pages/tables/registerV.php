@@ -306,7 +306,7 @@
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="page-header">
-            <h3 class="page-title"> Suivi de l'Etqt des Dossiers Déposés </h3>
+            <h3 class="page-title"> Suivi de l'Etat des Dossiers Déposés </h3>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../../indexA.php">Acceuil</a></li>
@@ -347,8 +347,8 @@
                         ?>
                           <form action="" method="POST">
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -386,8 +386,8 @@ if(isset($_POST['update']))
 
             <input type="submit" name="update" value="UPDATE DATA"/>
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -418,8 +418,8 @@ if(isset($_POST['update']))
                         ?>
                           <form action="" method="POST">
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -457,8 +457,8 @@ if(isset($_POST['update']))
 
             <input type="submit" name="update" value="UPDATE DATA"/>
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -489,8 +489,8 @@ if(isset($_POST['update']))
                         ?>
                           <form action="" method="POST">
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -528,8 +528,8 @@ if(isset($_POST['update']))
 
             <input type="submit" name="update" value="UPDATE DATA"/>
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
@@ -568,8 +568,8 @@ if(isset($_POST['update']))
 
             <input type="submit" name="update" value="UPDATE DATA"/>
             <?php 
-$connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection,'tuto');
+$connection = mysqli_connect("remotemysql.com","1xUW9ATMAK","surCRgjxjN");
+$db = mysqli_select_db($connection,'1xUW9ATMAK');
 
 if(isset($_POST['update'])) 
 {
