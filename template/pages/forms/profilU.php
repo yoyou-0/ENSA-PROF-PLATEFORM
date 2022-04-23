@@ -62,7 +62,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
                 $name = $user["username"];
                 $image = $user["image"];
                 ?>
-                <img style="border-radius: 50%;border: 0px;" src="pages/samples/img/<?php echo $image; ?>" width = 38 height = 38 title="<?php echo $image; ?>">
+                <img style="border-radius: 50%;border: 0px;" src="../samples/img/<?php echo $image; ?>" width = 38 height = 38 title="<?php echo $image; ?>">
                 <span class="count bg-success"></span>
                 
                 
@@ -319,7 +319,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
                 $name = $user["username"];
                 $image = $user["image"];
                 ?>
-                <img style="border-radius: 50%;border: 0px;" src="pages/samples/img/<?php echo $image; ?>" width = 38 height = 38 title="<?php echo $image; ?>">
+                <img style="border-radius: 50%;border: 0px;" src="../samples/img/<?php echo $image; ?>" width = 38 height = 38 title="<?php echo $image; ?>">
                 <span class="count bg-success"></span>
                 
                 

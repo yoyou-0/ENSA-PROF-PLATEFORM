@@ -110,7 +110,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
                   </div>
                 </div>
                 <div class="preview-item-content">
-                  <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
+                  <p class="preview-subject ellipsis mb-1 text-small">To-do</p>
                 </div>
               </a>
             </div>
@@ -151,7 +151,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
           </div>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="../forms/profilA.php">
+            <a class="nav-link" href="../forms/profilU.php">
               <span class="menu-icon">
                 <i class="mdi mdi-account-box"></i>
               </span>
@@ -314,7 +314,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
                     </div>
                   </div>
                   <div class="preview-item-content">
-                    <p class="preview-subject mb-1">Settings</p>
+                    <p class="preview-subject mb-1">Paramétres</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
@@ -325,11 +325,11 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id = $
                     </div>
                   </div>
                   <div class="preview-item-content">
-                    <p class="preview-subject mb-1">Log out</p>
+                    <p class="preview-subject mb-1">Se déconnecter</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <p class="p-3 mb-0 text-center">Advanced settings</p>
+                <p class="p-3 mb-0 text-center">Paramétres Avancés</p>
               </div>
             </li>
           </ul>
